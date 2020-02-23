@@ -177,7 +177,7 @@ ol {
 
 /*nuevos*/
 .body {
-background-image: url("../img/bgbody2.jpg")!important;
+background-image: url("../img/bg3.jpg")!important;
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
@@ -952,7 +952,7 @@ iframe {
 ---------------------*/
 
 .footer-section {
-	background: #1d1d1d;
+	background: rgba(0, 55, 255, 0.5);
 	overflow: hidden;
 }
 
@@ -1000,7 +1000,7 @@ iframe {
 .footer-bottom {
 	padding-top: 40px;
 	padding-bottom: 66px;
-	border-top: 1px solid #5b5b5b;
+	border-top: 1px solid white;
 	overflow: hidden;
 }
 
