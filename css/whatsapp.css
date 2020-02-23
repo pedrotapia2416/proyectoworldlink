@@ -62,7 +62,7 @@
 
 .whatsapp-icon-3x {
     position: relative;
-    background-image: url('/img/whatsapp.png');
+    background-image: url('../img/whatsapp.png');
     background-repeat: no-repeat;
     display: inline-block;
     height: 38px;

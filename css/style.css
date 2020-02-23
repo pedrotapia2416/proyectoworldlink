@@ -177,7 +177,7 @@ ol {
 
 /*nuevos*/
 .body {
-background-image: url("/img/bgbody2.jpg")!important;
+background-image: url("../img/bgbody2.jpg")!important;
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
@@ -919,7 +919,7 @@ iframe {
 
 .newslatter-form {
 	position: relative;
-	margin-top: 150px;
+	margin-top: 50px;
 }
 
 .newslatter-form input {
