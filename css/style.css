@@ -957,7 +957,7 @@ iframe {
 }
 
 .footer-widget h4 {
-	margin-bottom: 55px;
+	margin-bottom: 5px;
 }
 
 .footer-widget ul {
@@ -968,7 +968,7 @@ iframe {
 	display: block;
 	color: #fff;
 	font-size: 14px;
-	margin-bottom: 20px;
+	margin-bottom: 2px;
 }
 
 .footer-logo {
@@ -999,7 +999,7 @@ iframe {
 
 .footer-bottom {
 	padding-top: 40px;
-	padding-bottom: 38px;
+	padding-bottom: 66px;
 	border-top: 1px solid #5b5b5b;
 	overflow: hidden;
 }
@@ -1668,7 +1668,7 @@ iframe {
 		left: 0;
 		top: 100%;
 		margin-top: 3px;
-		z-index: 9999;
+		z-index: 1;
 	}
 	.main-menu li {
 		display: block;
