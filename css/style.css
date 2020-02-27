@@ -176,6 +176,10 @@ ol {
 -----------------------*/
 
 /*nuevos*/
+
+.bgazul {
+	background-color: rgba(0, 55, 255, 0.5);
+}
 .body {
 background-image: url("../img/bg3.jpg")!important;
 background-repeat: no-repeat;
@@ -453,7 +457,7 @@ iframe {
 	width: 100%;
 	margin: 0 auto;
 	overflow: overlay;
-	padding: 10px 0;
+	padding: 0px 0 60px;
 	border-bottom: 3px solid #f3e830;
 	text-align: center;
 }
@@ -690,6 +694,8 @@ iframe {
 
 .review-section {
 	display: flex;
+	background-image: url("/img/bg6.jpg");
+	margin-top: 50px;
 
 }
 
@@ -1539,7 +1545,9 @@ iframe {
 		width: 100%;
 	}
 	.header-section {
-		padding: 0 28px;
+		padding: 2px;
+		height: auto;
+		margin-bottom: 20px;
 	}
 }
 
@@ -1668,7 +1676,7 @@ iframe {
 		left: 0;
 		top: 100%;
 		margin-top: 3px;
-		z-index: 1;
+		z-index: 4;
 	}
 	.main-menu li {
 		display: block;
@@ -1776,7 +1784,7 @@ iframe {
 		padding: 0 20px;
 	}
 	.header-warp {
-		padding: 20px 0 60px;
+		padding: 0px 0 60px;
 	}
 	.user-panel {
 		position: absolute;

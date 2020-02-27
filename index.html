@@ -23,6 +23,12 @@
 	<!-- whatsapp -->
 	<link rel="stylesheet" href="css/whatsapp.css"/>
 
+	<!-- google maps -->
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6AY0iFvVSdkbN7ZUezOFhHp89hq5iUB0&callback=initMap"
+  type="text/javascript"></script>
+	<link href="jquery.gmaps.css" rel="stylesheet" />
+
+
 
 
 		<!----------------------------FACEBOOK PLUGIN---------------------------->
@@ -57,6 +63,13 @@
 
 
 </head>
+<style>
+
+.gmaps {
+height:500px;
+width: 100%;
+}
+</style>
 
 <body class="body">
 	<!-- Page Preloder -->
@@ -205,16 +218,273 @@
 	<!-- Newslatter section end -->
 
 
+	<!-- Courses section  -->
+	<section class="courses-section spad">
+		<div class="container">
+			<div class="sec-title text-center bgred">
+				<span>Nuestros Cursos</span>
+				<h2>Cursos</h2>
+			</div>
+			<div class="row courses-page">
+				<!-- course -->
+
+				<!-- course 1-->
+				<div class="col-lg-4 col-md-6  carta">
+					<div class="course-item bgred">
+						<figure class="course-preview mt-2">
+							<img src="img/cursos/niños.jpg" alt="">
+						</figure>
+						<div class="course-content">
+							<div class="cc-text">
+								<h5>Niños</h5>
+
+								<span><i class="flaticon-student-2"></i>20</span>
+								<span><i class="flaticon-placeholder"></i>4</span>
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star i-fade"></i>
+								</div>
+							</div>
+							<div class="seller-info">
+								<div class="seller-pic set-bg" data-setbg="img/courses/sellers/1.jpg"></div>
+								<h6></h6>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- course 2-->
+				<div class="col-lg-4 col-md-6  carta">
+					<div class="course-item bgred">
+						<figure class="course-preview mt-2">
+							<img src="img/cursos/jovenes.jpg" alt="">
+						</figure>
+						<div class="course-content">
+							<div class="cc-text">
+								<h5>Jóvenes</h5>
+
+								<span><i class="flaticon-student-2"></i>20</span>
+								<span><i class="flaticon-placeholder"></i>4</span>
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star i-fade"></i>
+								</div>
+							</div>
+							<div class="seller-info">
+								<div class="seller-pic set-bg" data-setbg="img/courses/sellers/1.jpg"></div>
+								<h6></h6>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- course 3-->
+				<div class="col-lg-4 col-md-6  carta ">
+					<div class="course-item bgred">
+						<figure class="course-preview mt-2 ">
+							<img src="img/cursos/adultos.jpg" alt="">
+						</figure>
+						<div class="course-content">
+							<div class="cc-text">
+								<h5>Adultos</h5>
+
+								<span><i class="flaticon-student-2"></i>20</span>
+								<span><i class="flaticon-placeholder"></i>4</span>
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star i-fade"></i>
+								</div>
+							</div>
+							<div class="seller-info">
+								<div class="seller-pic set-bg" data-setbg="img/courses/sellers/1.jpg"></div>
+								<h6></h6>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+				<div class="container">
+					<div class="row">
+
+
+				<!-- course 4-->
+				<div class="col-lg-4 col-md-6  carta mt-2 ">
+					<div class="course-item bgred">
+						<figure class="course-preview mt-2">
+							<img src="img/cursos/especiales.jpg" alt="">
+						</figure>
+						<div class="course-content">
+							<div class="cc-text">
+								<h5>Especiales</h5>
+
+								<span><i class="flaticon-student-2"></i>20</span>
+								<span><i class="flaticon-placeholder"></i>4</span>
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star i-fade"></i>
+								</div>
+							</div>
+							<div class="seller-info">
+								<div class="seller-pic set-bg  mb-2" data-setbg="img/courses/sellers/1.jpg"></div>
+								<h6> <ul>
+									<li>Inglés Empresarial</li>
+									<li>Inglés para turismo y gastronomía</li>
+									<li>Cursos acelerados para adultos</li>
+									<li>Clases de inglés personalizadas</li>
+									<li>Español para extranjeros</li>
+								</ul> </h6>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- course 5-->
+				<div class="col-lg-4 col-md-6  carta  mt-2">
+					<div class="course-item bgred">
+						<figure class="course-preview mt-2">
+							<img src="img/cursos/distancia.jpg" alt="">
+						</figure>
+						<div class="course-content">
+							<div class="cc-text">
+								<h5>Distancia</h5>
+
+								<span><i class="flaticon-student-2"></i>20</span>
+								<span><i class="flaticon-placeholder"></i>4</span>
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star i-fade"></i>
+								</div>
+							</div>
+							<div class="seller-info">
+								<div class="seller-pic set-bg" data-setbg="img/courses/sellers/1.jpg"></div>
+								<h6>¿No tenes tiempo para asistir a WORLDLINK? ¿Estas muy lejos de nuestras sucursales? Muy pronto podrás enterarte de todo lo que necesitás para estudiar sin moverte de tu casa.</h6>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- course 6-->
+				<div class="col-lg-4 col-md-6  carta  mt-2">
+					<div class="course-item bgred">
+						<figure class="course-preview mt-2">
+							<img src="img/cursos/examenes.jpg" alt="">
+						</figure>
+						<div class="course-content">
+							<div class="cc-text">
+								<h5>Exámenes</h5>
+
+								<span><i class="flaticon-student-2"></i>20</span>
+								<span><i class="flaticon-placeholder"></i>4</span>
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star i-fade"></i>
+								</div>
+							</div>
+							<div class="seller-info">
+								<div class="seller-pic set-bg" ></div>
+								<h6>Durante el año lectivo, WORLDLINK administra cuatro exámenes escritos al finalizar cada bimestre: en Mayo, Julio, Septiembre y Noviembre y dos exámenes orales: en Julio y Noviembre</h6>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- course -->
+
+			</div>
+			<div class="text-center pt-2">
+				<button class="site-btn">Más Información <i class="fa fa-angle-right"></i></button>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Contact section -->
+	<section class="contact-section spad">
+		<div class="container">
+			<div class="row">
+				<!-- map -->
+					<div data-key="AIzaSyA6AY0iFvVSdkbN7ZUezOFhHp89hq5iUB0"
+					data-control-zoom="true"
+					data-control-type="true"
+					data-control-scale="true"
+					data-control-streetview="true"
+					data-control-rotate="true"
+					data-event-mousewheel="true"
+
+					data-zoom="14" role="map" class="gmaps">
+
+					<!– items de ubicaciones –>
+
+					<div
+					data-id="1"
+					data-lat="-20.363"
+					data-lng="111.044"
+					class="marker">
+					<div class="map-card">
+					<h1>This is my title 1</h1>
+					<p>Address: Fake street, #445, Stgo.</p>
+					<p>Phone: +56753223344</p>
+					<p>e-Mail: fake1@email.com</p>
+					</div>
+					</div>
+
+					<div
+					data-id="2"
+					data-lat="-21.363"
+					data-lng="121.044"
+					class="marker">
+					<div class="map-card">
+					<h1>This is my title 2</h1>
+					<p>Address: Fake street, #445, Stgo.</p>
+					<p>Phone: +56753223344</p>
+					<p>e-Mail: fake2@email.com</p>
+					</div>
+					</div>
+
+					<div
+					data-id="3"
+					data-lat="-25.363"
+					data-lng="131.044"
+					class="marker">
+					<div class="map-card">
+					<h1>This is my title 3</h1>
+					<p>Address: Fake street, #445, Stgo.</p>
+					<p>Phone: +56753223344</p>
+					<p>e-Mail: fake3@email.com</p>
+					</div>
+					</div>
+					<!– fin datos de ubicación –>
+
+					</div>
 
 
 
-
-
-
-
-
-
-
+			</div>
+		</div>
+	</section>
+	<!-- Contact section end -->
 
 
 
@@ -400,6 +670,7 @@
 
 	<!--====== Javascripts & Jquery ======-->
 	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/jquery.gmaps.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/circle-progress.min.js"></script>
@@ -407,6 +678,15 @@
 
 	<script type="text/javascript" src="https://www.kikamayorista.com.ar/modules/whatsappchat//views/js/whatsappchat.js" ></script>
 
+<!-- script map -->
 
+
+
+		<script type="text/javascript">
+		$(document).ready(function () {
+		$(‘.gmaps’).gmaps();
+		});
+
+		</script>
 </body>
 </html>
