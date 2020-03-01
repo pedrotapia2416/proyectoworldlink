@@ -55,7 +55,7 @@ h6 {
 
 p {
 	font-size: 14px;
-	color: #838383;
+	color: black;
 	line-height: 2.1;
 }
 
@@ -112,6 +112,28 @@ ol {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
+}
+
+.bgdegradado {
+	background: rgba(114,186,204,1);
+background: -moz-linear-gradient(top, rgba(114,186,204,1) 0%, rgba(255,255,255,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(114,186,204,1)), color-stop(100%, rgba(255,255,255,1)));
+background: -webkit-linear-gradient(top, rgba(114,186,204,1) 0%, rgba(255,255,255,1) 100%);
+background: -o-linear-gradient(top, rgba(114,186,204,1) 0%, rgba(255,255,255,1) 100%);
+background: -ms-linear-gradient(top, rgba(114,186,204,1) 0%, rgba(255,255,255,1) 100%);
+background: linear-gradient(to bottom, rgba(114,186,204,1) 0%, rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#72bacc', endColorstr='#ffffff', GradientType=0 );
+}
+
+.bgdegradadodesc {
+	background: rgba(255,255,255,1);
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(114,186,204,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(114,186,204,1)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(114,186,204,1) 100%);
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(114,186,204,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(114,186,204,1) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(114,186,204,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#72bacc', GradientType=0 );
 }
 
 .spad {
@@ -177,14 +199,43 @@ ol {
 
 /*nuevos*/
 
+.lista {
+	list-style: none;
+	text-align: left;
+	
+
+}
+
 .bgazul {
 	background-color: rgba(0, 55, 255, 0.5);
 }
 .body {
+
+
 background-image: url("../img/bg3.jpg")!important;
+
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
+
+/*
+background: rgba(255,255,255,1);
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(114,186,204,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(114,186,204,1)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(114,186,204,1) 100%);
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(114,186,204,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(114,186,204,1) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(114,186,204,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#72bacc', GradientType=0 );
+*/
+}
+
+.bodyworldlink {
+	background-image: url("../img/bgblanco.jpg")!important;
+
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 .carta {
@@ -192,6 +243,14 @@ background-size: cover;
 	-moz-box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.75);
 	box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.75);
 }
+
+.carta2 {
+	-webkit-box-shadow: -8px 10px 16px -8px rgba(0,0,0,0.75);
+	-moz-box-shadow: -8px 10px 16px -8px rgba(0,0,0,0.75);
+	box-shadow: -8px 10px 16px -8px rgba(0,0,0,0.75);
+}
+
+
 .tras {
 	background-color: rgba(255, 255, 255, 0.30);
 
@@ -216,12 +275,22 @@ iframe {
 	width: 100%;
 }
 .bgred {
-	background-color: white;
+	background-color: rgba(255, 255, 255, 0.30);
 	border-bottom: 3px solid #f3e830;
+	border-radius:5px;
+}
+.bgred2 {
+	background-color: rgba(255, 255, 255, 0.70);
+	border-bottom: 3px solid #f3e830;
+	border-radius: 20px;
 }
 
 .bordeamarillo {
 	border-bottom: 3px solid #f3e830;
+}
+
+.img-section {
+	border-radius: 20px;
 }
 /**/
 
@@ -238,6 +307,7 @@ iframe {
 	position: relative;
 	color: #fff;
 	cursor: pointer;
+	border-radius: 5px;
 }
 
 .site-btn:hover {
@@ -457,7 +527,6 @@ iframe {
 	width: 100%;
 	margin: 0 auto;
 	overflow: overlay;
-	padding: 0px 0 60px;
 	border-bottom: 3px solid #f3e830;
 	text-align: center;
 }
@@ -519,7 +588,7 @@ iframe {
 ---------------------*/
 
 .hero-section {
-	height: 500px;
+	height: auto;
 }
 
 .hero-text {
@@ -694,7 +763,6 @@ iframe {
 
 .review-section {
 	display: flex;
-	background-image: url("/img/bg6.jpg");
 	margin-top: 50px;
 
 }
@@ -841,7 +909,6 @@ iframe {
 
 .course-item .seller-info h6 {
 	color: #fff;
-	padding-left: 60px;
 	top: 13px;
 	position: relative;
 	font-weight: 500;
