@@ -202,7 +202,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .lista {
 	list-style: none;
 	text-align: left;
-	
+
 
 }
 
@@ -230,8 +230,45 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 */
 }
 
+.bodycursos {
+	background-image: url("../img/cursos.jpg")!important;
+
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.bodycontacto {
+	background-image: url("../img/bgcontacto.jpg")!important;
+
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
 .bodyworldlink {
-	background-image: url("../img/bgblanco.jpg")!important;
+	background-image: url("../img/bgblanco.jpg") !important;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.bodyinternacional {
+	background-image: url("../img/internacional.jpg")!important;
+
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.bodyviaje{
+	background-image: url("../img/viaje.jpg")!important;
+
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.bodyservicios {
+	background-image: url("../img/servicios.jpg")!important;
 
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -283,6 +320,17 @@ iframe {
 	background-color: rgba(255, 255, 255, 0.70);
 	border-bottom: 3px solid #f3e830;
 	border-radius: 20px;
+}
+.bgred3 {
+	background-color: rgba(255, 255, 255, 0.70);
+	border-bottom: 3px solid #f3e830;
+	border-radius: 0px;
+}
+
+.bgred4 {
+	background-color: rgba(255, 255, 255, 1);
+	border-bottom: 3px solid #f3e830;
+	border-radius: 0px;
 }
 
 .bordeamarillo {
@@ -877,7 +925,7 @@ iframe {
 
 .course-item .cc-text span i {
 	font-size: 19px;
-	color: #d2d2d2;
+	color: #0056ff;
 	margin-right: 2px;
 }
 
@@ -1612,7 +1660,6 @@ iframe {
 		width: 100%;
 	}
 	.header-section {
-		padding: 2px;
 		height: auto;
 		margin-bottom: 20px;
 	}
