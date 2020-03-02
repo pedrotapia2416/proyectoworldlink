@@ -338,7 +338,16 @@ iframe {
 }
 
 .img-section {
-	border-radius: 20px;
+	border-radius: 0px 0px 5px 0px;
+	padding: 1px;
+	-webkit-box-shadow: -8px 10px 16px -8px rgba(0,0,0,0.75);
+	-moz-box-shadow: -8px 10px 16px -8px rgba(0,0,0,0.75);
+	box-shadow: -8px 10px 16px -8px rgba(0,0,0,0.75);
+
+}
+
+.textazul {
+	color: rgba(0, 55, 255, 0.8);
 }
 /**/
 
